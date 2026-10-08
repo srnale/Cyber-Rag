@@ -72,16 +72,4 @@ python -m src.eval --hybrid
 - Groq API usage may be rate limited; the app includes retry/backoff logic and the evaluation script pauses briefly between questions.
 - This is intended for a small corpus, not a massive knowledge base.
 
-## Results
 
-Fill in this table from the generated `eval_results.csv` file.
-
-| Question | Retrieval hit@k | Keyword score | Notes |
-|---|---:|---:|---|
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-
-## Notes for students
-
-`eval_questions.json` is a starter set with placeholders. Replace it with 15–20 real questions based on your own PDFs before presenting the project to a mentor.
