@@ -1,0 +1,26 @@
+[
+  {
+    "question": "What is phishing?",
+    "expected_source": "example.pdf",
+    "expected_page": 1,
+    "expected_keywords": ["phishing", "credential", "email"]
+  },
+  {
+    "question": "What is malware?",
+    "expected_source": "example.pdf",
+    "expected_page": 2,
+    "expected_keywords": ["malware", "harmful", "code"]
+  },
+  {
+    "question": "What should users do to protect themselves from ransomware?",
+    "expected_source": "example.pdf",
+    "expected_page": 3,
+    "expected_keywords": ["ransomware", "backup", "patch"]
+  },
+  {
+    "question": "Who won the 2018 World Cup?",
+    "expected_source": "example.pdf",
+    "expected_keywords": [],
+    "should_refuse": true
+  }
+]
